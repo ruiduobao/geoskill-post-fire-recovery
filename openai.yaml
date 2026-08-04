@@ -1,0 +1,14 @@
+name: geoskill-post-fire-recovery
+display_name: 火后植被恢复监测
+description: |
+  用 dNBR（NIR/SWIR 差分归一化烧伤比）判定五级烧伤严重度，结合火后多期 NDVI 恢复曲线估算恢复轨迹、恢复斜率与恢复年限，输出严重度 GeoTIFF、恢复轨迹 JSON 与恢复年限栅格。Post-fire recovery from dNBR severity and NDVI time series.
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-post-fire-recovery.py
+runtime: python>=3.9
+tags:
+  - agriculture
+  - gis
+  - raster
+  - remote-sensing
+  - vegetation
